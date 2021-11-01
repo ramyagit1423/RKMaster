@@ -16,6 +16,7 @@ namespace RKMaster.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
+            //hello//
         }
 
         public IActionResult Index()
